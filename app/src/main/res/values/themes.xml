@@ -11,4 +11,9 @@
         <item name="colorOnPrimary">#FFFFFF</item>
     </style>
 
+    <style name="roundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
 </resources>
