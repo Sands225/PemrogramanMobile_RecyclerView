@@ -3,6 +3,7 @@ package com.example.balitourismapp
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -14,6 +15,7 @@ class TouristAdapter(
         val tvPlaceName: TextView = itemView.findViewById(R.id.tvPlaceName)
         val tvLocation: TextView = itemView.findViewById(R.id.tvLocation)
         val tvDescription: TextView = itemView.findViewById(R.id.tvDescription)
+        val imgTourist: ImageView = itemView.findViewById(R.id.imgTourist)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TouristViewHolder {
@@ -29,6 +31,8 @@ class TouristAdapter(
         holder.tvPlaceName.text = place.name
         holder.tvLocation.text = place.location
         holder.tvDescription.text = place.description
+        
+        holder.imgTourist.setImageResource(place.imageResId)
     }
 
     override fun getItemCount(): Int {

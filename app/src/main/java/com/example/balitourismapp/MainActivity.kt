@@ -30,78 +30,87 @@ class MainActivity : AppCompatActivity() {
             TouristPlace(
                 "Tanah Lot",
                 "Tabanan, Bali",
-                "A famous sea temple built on a rocky offshore formation, best known for its beautiful sunset views."
+                "A famous sea temple built on a rocky offshore formation, best known for its beautiful sunset views.",
+                R.drawable.tanah_lot
             ),
             TouristPlace(
                 "Uluwatu Temple",
                 "South Kuta, Badung",
-                "A cliffside Hindu temple overlooking the Indian Ocean, popular for sunset views and Kecak dance performances."
+                "A cliffside Hindu temple overlooking the Indian Ocean, popular for sunset views and Kecak dance performances.",
+                R.drawable.uluwatu_temple
             ),
             TouristPlace(
                 "Tegallalang Rice Terrace",
                 "Ubud, Gianyar",
-                "A scenic rice terrace area with traditional Balinese irrigation systems and lush green landscapes."
+                "A scenic rice terrace area with traditional Balinese irrigation systems and lush green landscapes.",
+                R.drawable.tegallalang_rice_terrace
             ),
-            TouristPlace(
-                "Kuta Beach",
-                "Kuta, Badung",
-                "One of Bali’s most popular beaches, known for surfing, nightlife, shopping, and golden sunsets."
-            ),
+//            TouristPlace(
+//                "Kuta Beach",
+//                "Kuta, Badung",
+//                "One of Bali’s most popular beaches, known for surfing, nightlife, shopping, and golden sunsets.",
+//                R.drawable.kuta_beach
+//            ),
             TouristPlace(
                 "Mount Batur",
                 "Kintamani, Bangli",
-                "An active volcano famous for sunrise trekking and panoramic views of Lake Batur."
+                "An active volcano famous for sunrise trekking and panoramic views of Lake Batur.",
+                R.drawable.mount_batur
             ),
             TouristPlace(
                 "Besakih Temple",
                 "Karangasem, Bali",
-                "Known as the Mother Temple of Bali, this large temple complex sits on the slopes of Mount Agung."
+                "Known as the Mother Temple of Bali, this large temple complex sits on the slopes of Mount Agung.",
+                R.drawable.besakih_temple
             ),
             TouristPlace(
                 "Nusa Penida",
                 "Klungkung, Bali",
-                "A beautiful island destination known for dramatic cliffs, crystal-clear waters, and beaches like Kelingking Beach."
+                "A beautiful island destination known for dramatic cliffs, crystal-clear waters, and beaches like Kelingking Beach.",
+                R.drawable.nusa_penida
             ),
             TouristPlace(
                 "Sanur Beach",
                 "Denpasar, Bali",
-                "A calm coastal area suitable for sunrise viewing, cycling, family trips, and relaxing beach walks."
+                "A calm coastal area suitable for sunrise viewing, cycling, family trips, and relaxing beach walks.",
+                R.drawable.sanur_beach
             ),
-            TouristPlace(
-                "Garuda Wisnu Kencana",
-                "Ungasan, Badung",
-                "A cultural park featuring a massive statue of Vishnu riding Garuda, along with performances and open spaces."
-            ),
+//            TouristPlace(
+//                "Garuda Wisnu Kencana",
+//                "Ungasan, Badung",
+//                "A cultural park featuring a massive statue of Vishnu riding Garuda, along with performances and open spaces."
+//            ),
             TouristPlace(
                 "Sekumpul Waterfall",
                 "Buleleng, Bali",
-                "One of Bali’s most impressive waterfalls, surrounded by tropical forest and natural scenery."
-            ),
-            TouristPlace(
-                "Ulun Danu Beratan Temple",
-                "Bedugul, Tabanan",
-                "A beautiful lakeside temple located on Lake Beratan, often appearing as if floating on the water."
-            ),
-            TouristPlace(
-                "Campuhan Ridge Walk",
-                "Ubud, Gianyar",
-                "A peaceful walking trail with green hills, fresh air, and scenic views near central Ubud."
-            ),
-            TouristPlace(
-                "Jimbaran Beach",
-                "Jimbaran, Badung",
-                "A beach destination famous for seafood restaurants, calm waters, and romantic sunset dinners."
-            ),
-            TouristPlace(
-                "Tirta Empul Temple",
-                "Tampaksiring, Gianyar",
-                "A sacred water temple known for its holy spring purification ritual and traditional Balinese architecture."
-            ),
-            TouristPlace(
-                "Bali Safari and Marine Park",
-                "Gianyar, Bali",
-                "A family-friendly wildlife park featuring animal shows, safari journeys, and educational attractions."
+                "One of Bali’s most impressive waterfalls, surrounded by tropical forest and natural scenery.",
+                R.drawable.sekumpul_waterfall
             )
+//            TouristPlace(
+//                "Ulun Danu Beratan Temple",
+//                "Bedugul, Tabanan",
+//                "A beautiful lakeside temple located on Lake Beratan, often appearing as if floating on the water."
+//            ),
+//            TouristPlace(
+//                "Campuhan Ridge Walk",
+//                "Ubud, Gianyar",
+//                "A peaceful walking trail with green hills, fresh air, and scenic views near central Ubud."
+//            ),
+//            TouristPlace(
+//                "Jimbaran Beach",
+//                "Jimbaran, Badung",
+//                "A beach destination famous for seafood restaurants, calm waters, and romantic sunset dinners."
+//            ),
+//            TouristPlace(
+//                "Tirta Empul Temple",
+//                "Tampaksiring, Gianyar",
+//                "A sacred water temple known for its holy spring purification ritual and traditional Balinese architecture."
+//            ),
+//            TouristPlace(
+//                "Bali Safari and Marine Park",
+//                "Gianyar, Bali",
+//                "A family-friendly wildlife park featuring animal shows, safari journeys, and educational attractions."
+//            )
         )
     }
 }
