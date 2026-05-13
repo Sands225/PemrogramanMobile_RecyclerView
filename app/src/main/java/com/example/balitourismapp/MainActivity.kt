@@ -45,12 +45,6 @@ class MainActivity : AppCompatActivity() {
                 "A scenic rice terrace area with traditional Balinese irrigation systems and lush green landscapes.",
                 R.drawable.tegallalang_rice_terrace
             ),
-//            TouristPlace(
-//                "Kuta Beach",
-//                "Kuta, Badung",
-//                "One of Bali’s most popular beaches, known for surfing, nightlife, shopping, and golden sunsets.",
-//                R.drawable.kuta_beach
-//            ),
             TouristPlace(
                 "Mount Batur",
                 "Kintamani, Bangli",
@@ -75,42 +69,18 @@ class MainActivity : AppCompatActivity() {
                 "A calm coastal area suitable for sunrise viewing, cycling, family trips, and relaxing beach walks.",
                 R.drawable.sanur_beach
             ),
-//            TouristPlace(
-//                "Garuda Wisnu Kencana",
-//                "Ungasan, Badung",
-//                "A cultural park featuring a massive statue of Vishnu riding Garuda, along with performances and open spaces."
-//            ),
+            TouristPlace(
+                "Garuda Wisnu Kencana",
+                "Ungasan, Badung",
+                "A cultural park featuring a massive statue of Vishnu riding Garuda, along with performances and open spaces.",
+                R.drawable.garuda_wisnu_kencana
+            ),
             TouristPlace(
                 "Sekumpul Waterfall",
                 "Buleleng, Bali",
                 "One of Bali’s most impressive waterfalls, surrounded by tropical forest and natural scenery.",
                 R.drawable.sekumpul_waterfall
             )
-//            TouristPlace(
-//                "Ulun Danu Beratan Temple",
-//                "Bedugul, Tabanan",
-//                "A beautiful lakeside temple located on Lake Beratan, often appearing as if floating on the water."
-//            ),
-//            TouristPlace(
-//                "Campuhan Ridge Walk",
-//                "Ubud, Gianyar",
-//                "A peaceful walking trail with green hills, fresh air, and scenic views near central Ubud."
-//            ),
-//            TouristPlace(
-//                "Jimbaran Beach",
-//                "Jimbaran, Badung",
-//                "A beach destination famous for seafood restaurants, calm waters, and romantic sunset dinners."
-//            ),
-//            TouristPlace(
-//                "Tirta Empul Temple",
-//                "Tampaksiring, Gianyar",
-//                "A sacred water temple known for its holy spring purification ritual and traditional Balinese architecture."
-//            ),
-//            TouristPlace(
-//                "Bali Safari and Marine Park",
-//                "Gianyar, Bali",
-//                "A family-friendly wildlife park featuring animal shows, safari journeys, and educational attractions."
-//            )
         )
     }
 }
